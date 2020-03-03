@@ -2343,7 +2343,7 @@ class MaskRCNN():
             max_queue_size=100,
             verbose=verbose,
             workers=workers,
-            use_multiprocessing=False,
+            use_multiprocessing=True,
         )
         self.epoch = max(self.epoch, epochs)
 
